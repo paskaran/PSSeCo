@@ -16,14 +16,15 @@
 					Please download PSSQLite and install it into your Windows Module Folder.
 					Also install this module within your Windows  Module Folder
 
- How To Use		:	1. Initialize-PSSeCoChannel
+ How To Use		:	
+ 					1. Initialize-PSSeCoChannel
  					-	To initialize a channel for the communication 
 						use the function Initialize-PSSeCoChannel.
 						Provide a ChannelPath and a ChannelName
 					-	Make sure you use the same ChannelPath and 
 						ChannelName for all PowerShell sessions which
 						should communicate with each other.
-						
+					----	
 					2.	Send-PSSeCoMessage
 					-	Use this function to send a message to a 
 						channel.
@@ -33,7 +34,7 @@
 						CommunicationIds between two PowerShell sessions:
 						One for sending message from A to B and the other
 						for sending message from B to A.
-					
+					----
 					3.	Get-PSSeCoMessage
 					-	This function returns the last message from the channel.
 					-	If you want to wait until a message arrived, you have to set
@@ -47,11 +48,11 @@
 						DeleteOldMessage - Switch. But note if two sessions with same 
 						communication id listen on the same channel with the 
 						DeleteOldMessage Switch set,then a concurrency problem can occur.
-						
+					----	
 					4.	Clear-PSSeCoChannel
 					-	This function clear all messages with given communication id from the
 						channel. 
-					
+					----
 					5. 	Stop-PSSeCoChannel
 					-	This function stops the initialized channel. Make sure you passed the 
 						correct ChannelName and ChannelPath as used for Initialize-PSSeCoChannel.
