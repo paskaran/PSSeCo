@@ -24,6 +24,8 @@
 					-	Make sure you use the same ChannelPath and 
 						ChannelName for all PowerShell sessions which
 						should communicate with each other.
+						
+						
 					----	
 					2.	Send-PSSeCoMessage
 					-	Use this function to send a message to a 
@@ -34,6 +36,8 @@
 						CommunicationIds between two PowerShell sessions:
 						One for sending message from A to B and the other
 						for sending message from B to A.
+						
+						
 					----
 					3.	Get-PSSeCoMessage
 					-	This function returns the last message from the channel.
@@ -48,10 +52,14 @@
 						DeleteOldMessage - Switch. But note if two sessions with same 
 						communication id listen on the same channel with the 
 						DeleteOldMessage Switch set,then a concurrency problem can occur.
+						
+						
 					----	
 					4.	Clear-PSSeCoChannel
 					-	This function clear all messages with given communication id from the
 						channel. 
+						
+						
 					----
 					5. 	Stop-PSSeCoChannel
 					-	This function stops the initialized channel. Make sure you passed the 
