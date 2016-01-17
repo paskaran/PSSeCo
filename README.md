@@ -17,25 +17,21 @@
 					Also install this module within your Windows  Module Folder
 
  How To Use		:	
- 					1. Initialize-PSSeCoChannel
- 					-	To initialize a channel for the communication 
-						use the function Initialize-PSSeCoChannel.
-						Provide a ChannelPath and a ChannelName
-					-	Make sure you use the same ChannelPath and 
-						ChannelName for all PowerShell sessions which
-						should communicate with each other.
-						
-						
-					----	
-					2.	Send-PSSeCoMessage
-					-	Use this function to send a message to a 
-						channel.
-					-	The CommunicationId defines a group. This Id
-						allows you to generate multiple communication
-						within one channel. I recomend to use two 
-						CommunicationIds between two PowerShell sessions:
-						One for sending message from A to B and the other
-						for sending message from B to A.
+ 1. Initialize-PSSeCoChannel
+ -	To initialize a channel for the communication 
+	use the function Initialize-PSSeCoChannel.
+	Provide a ChannelPath and a ChannelName
+-	Make sure you use the same ChannelPath and 
+	ChannelName for all PowerShell sessions which
+	should communicate with each other.
+2.	Send-PSSeCoMessage
+-	Use this function to send a message to a channel.
+-	The CommunicationId defines a group. This Id
+	allows you to generate multiple communication
+	within one channel. I recomend to use two 
+	CommunicationIds between two PowerShell sessions:
+	One for sending message from A to B and the other
+	for sending message from B to A.
 						
 						
 					----
