@@ -13,10 +13,8 @@
 					This module needs the module 
 					https://github.com/RamblingCookieMonster/PSSQLite
 					to work! 
-					Please download PSSQLite and install it into your 
-					Windows Module Folder.
-					Also install this module within your 
-					Windows  Module Folder
+					Please download PSSQLite and install it into your Windows Module Folder.
+					Also install this module within your Windows  Module Folder
 ---------------------------------------------------------------------
  How To Use		:	1. Initialize-PSSeCoChannel
  					-	To initialize a channel for the communication 
