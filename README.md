@@ -1,6 +1,5 @@
 # PSSeCo
 
-<#------------------------------------------------------------------- 
  ModuleName		:	PSSeCo.psm1
 ---------------------------------------------------------------------
  Author			:	Dinesh Paskaran 
@@ -61,5 +60,4 @@
 						Use this function when you think the communication channel 
 						should now be cleared and removed.
 					
----------------------------------------------------------------------
-#>
+ 
