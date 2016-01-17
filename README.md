@@ -8,13 +8,10 @@
  
 ## Month-Year		:	17.01.2015
  
-## Purpose		:	Module to create a communication channel between 
- 					Sessions.
-					This module needs the module 
-					https://github.com/RamblingCookieMonster/PSSQLite
-					to work! 
-					Please download PSSQLite and install it into your Windows Module Folder.
-					Also install this module within your Windows  Module Folder
+## Purpose		:	Module to create a communication channel between Sessions.
+This module needs the module https://github.com/RamblingCookieMonster/PSSQLite to work! 
+Please download PSSQLite and install it into your Windows Module Folder.
+Also install this module within your Windows  Module Folder
 
 # How To Use
 1. Initialize-PSSeCoChannel
