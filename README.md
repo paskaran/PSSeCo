@@ -1,14 +1,14 @@
-# PSSeCo
+# PSSeCo = PowerShell-Session-Communication
 
- ModuleName		:	PSSeCo.psm1
+## ModuleName		:	PSSeCo.psm1
  
- Author			:	Dinesh Paskaran 
+## Author			:	Dinesh Paskaran 
  
- Version		:	1.0.0
+## Version		:	1.0.0
  
- Month-Year		:	17.01.2015
+## Month-Year		:	17.01.2015
  
- Purpose		:	Module to create a communication channel between 
+## Purpose		:	Module to create a communication channel between 
  					Sessions.
 					This module needs the module 
 					https://github.com/RamblingCookieMonster/PSSQLite
